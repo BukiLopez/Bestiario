@@ -1,15 +1,13 @@
-.header{
+.footer{
     padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.header h1{
+.footer h1{
 font-family: 'MonsterHunter', sans-serif;
 font-size: 36px;
 margin-bottom: 10px;
 }
-.header p{
+.footer p{
     font-family: 'Arial', sans-serif; 
     font-size: 18px;
     color: #5c5c5c; 
