@@ -121,15 +121,18 @@ img {
     border-radius: 15px;
     padding: 10px;
     box-sizing: border-box;
+    width: 90%;
   }
   
   .titulo {
     font-size: 24px;
     padding: 10px 10px 0 10px;
+    background-color: green;
   }
   
   .cuerpo {
     padding: 10px;
+    background-color: yellow;
   }
   
   .cuerpo img {

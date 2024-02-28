@@ -1,9 +1,10 @@
 import './App.css';
 import Footer from './comps/Footer';
 import Header from './comps/Header';
-import MonsterCards from './comps/MonsterCard';
 import MonsterCardsList from './comps/MonsterCard';
-
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Monster from './comps/Monster';
+import Formulario from './comps/Formulario';
 
 const monsters = [
   { id: 1, monster: "Cthulhu", description: "A cosmic horror monster", image: "https://steamuserimages-a.akamaihd.net/ugc/952978509141610805/0A3BC2403669CC6BAD102F7A45441B34C7A2B691/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" },
@@ -15,12 +16,17 @@ const monsters = [
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <MonsterCardsList monsters={monsters} />
+      <Routes>
+        <Route path="/" element={<MonsterCardsList monsters={monsters}></MonsterCardsList>}></Route>
+        <Route path="/monster" element={<Monster monster={monsters[0].monster} image={monsters[0].image} description={monsters[0].description} />}></Route>
+        <Route path="/formulario" element={<Formulario />}></Route>
+      </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
 export default App;
+// 

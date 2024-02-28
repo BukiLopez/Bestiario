@@ -1,27 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+.monsterBody {
+    padding-left: 55px;
 }
 
-.menu {
-    display: flex;
+h1 {
+    text-align: center;
 }
 
-.menu p {
-    margin-right: 2rem;
-    cursor: pointer;
+.monsterTable {
+    border: 1px black solid;
+    width: 96%;
+    align-content: center;
 }
 
-.content {
-    margin-top: 2rem;
-}
-
-[data-content] {
-    display: none;
-}
-
-.active[data-content] {
-    display: block;
+.monsterTable td {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
 }

@@ -1,44 +1,21 @@
 import './monster.css';
-const targets = document.querySelectorAll('[data-target]')
- const content = document.querySelectorAll('[data-content]')
 
-targets.forEach(target => {
-    target.addEventListener('click', () => {
-        const t = document.querySelector(target.dataset.target)
-        content.forEach(c => {
-            c.classList.remove('active')
-        })
-        t.classList.add('active')
-    }
-    )
-})
-
-function Monster() {
+function Monster ({ monster,description,image }) {
     return (
-        <div className="monster">
-            <div className='monsterMenu'>
-                <p data-target="#inicio">Inicio</p>
-                <p data-target="#descripcion">Descripcion</p>
-                <p data-target="#debilidades">Debilidades</p>
-            </div>
-            <div className='content'>
-                <div data-content id="inicio">
-                    <h1>Inicio</h1>
-                </div>
-                <div data-content id="descripcion">
-                    <h1>Descripcion</h1>
-                </div>
-                <div data-content id="debilidades">
-                    <h1>Debilidades</h1>
-                </div>
-            </div>
+        <div className="monsterBody">
+            <h1>Esto es /Monster</h1>
+            <table className='monsterTable'>
+                <tr>
+                    <th>{monster}</th>
+                </tr>
+                <tr>
+                    <th><img src={image} alt={monster} /></th>
+                </tr>
+                <tr>
+                    <td>{description}</td>
+                </tr>
+            </table>
         </div>
-        
     );
 }
-
-function ShowMonster(){
-    return (
-        <div></div>
-    )
-}
+export default Monster;
