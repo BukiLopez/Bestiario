@@ -20,6 +20,7 @@ const monsters = [
 * Esta ruta se encargaría de mostrar todos los monstruos tal como la actual, pero usando nuestro Hook useFetch que por dentro se encarga de hacer el fetch con la ruta que le ingresemos como varible, este hook ya incluye el cambio de estado para que cuando se encuentre haciendo el require muestre un loading y cuando termine muestre los datos.
 * También deberíamos usar el loading de esta manera:
 * {loading ? <p>Loading...</p> : <MonsterCardsList monsters={data}></MonsterCardsList>}
+* En monsters.json se encuentra lo que se espera recibir
 */
 function App() {
 
