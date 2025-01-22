@@ -1,0 +1,64 @@
+{
+  "monsters": [
+    { 
+      "id": 1,
+      "monster": "Rajang",
+      "description": "A cosmic horror monster",
+      "image": "/imgs/Rajang.webp"
+    },
+    {
+      "id": 2,
+      "monster": "Zinogre",
+      "description": "El creador de los monstruos",
+      "image": "/imgs/Zinogre.webp"
+    },
+    {
+      "id": 3,
+      "monster": "Kulve Taroth",
+      "description": "Un monstruo que vive en el bosque",
+      "image": "/imgs/Kulve Taroth.webp"
+    },
+    {
+      "id": 4,
+      "monster": "Namielle",
+      "description": "Un monstruo que vive en el lago Ness",
+      "image": "/imgs/Namielle.webp" 
+    },
+    {
+      "id": 5,
+      "monster": "Nargacuga",
+      "description": "Helao?🍧",
+      "image": "/imgs/Nargacuga.webp"
+    },
+    {
+      "id": 6,
+      "monster": "Tzitzi-Ya-Ku",
+      "description": "Ola",
+      "image": "/imgs/Tzitzi-Ya-Ku.webp"
+    },
+    {
+      "id": 7,
+      "monster": "Velkhana",
+      "description": "Un monstruo que vive en el polo norte",
+      "image": "/imgs/Velkhana.webp"
+    },
+    {
+      "id": 8,
+      "monster": "Yian Garuga",
+      "description": "Un monstruo que vive en el bosque",
+      "image": "/imgs/Yian Garuga.webp"
+    },
+    {
+      "id": 9,
+      "monster": "Zorah Magdaros",
+      "description": "Un monstruo que vive en el volcan",
+      "image": "/imgs/Zorah Magdaros.webp"
+    },
+    {
+      "id": 10,
+      "monster": "Xeno'jiiva",
+      "description": "Un monstruo que vive en el espacio",
+      "image": "/imgs/Xeno'jiiva.webp"
+    }
+  ]
+}

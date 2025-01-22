@@ -30,8 +30,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<MonsterCardsList monsters={monsters}></MonsterCardsList>}></Route>
-        <Route path="/monster" element={<Monster monster={monsters[0].monster} image={monsters[0].image} description={monsters[0].description} />}></Route>
+        <Route path="/" element={<Monster monster={monsters[0].monster} image={monsters[0].image} description={monsters[0].description} />}></Route>
+        <Route path="/monster" element={<MonsterCardsList monsters={monsters}></MonsterCardsList>}></Route>
         <Route path="/formulario" element={<Formulario />}></Route>
       </Routes>
       <Footer />
